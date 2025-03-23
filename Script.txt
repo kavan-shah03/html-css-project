@@ -1,0 +1,34 @@
+Pasta Carbonara:
+Lasagna:DONE
+Risotto:DONE
+Tiramisu:CARD 3 Done
+Osso Buco:5
+Gnocchi:3
+Minestrone:DONE
+Arancini:CARD 2 Done
+Bruschetta:Done
+Ravioli: Done
+Polenta:DONE
+Ossobuco:CARD 1 Done
+Cannoli: DONE
+Carpaccio:DONE
+Fettuccine Alfredo: 
+
+DESCRIPTION
+Italian cuisine is beloved for its exquisite flavors and simplicity. It captivates with fresh, high-quality ingredients, artful combinations, and a deep respect for tradition. The harmony of taste and tradition makes Italian food truly exceptional.
+
+HISTORY
+Italian cuisine has a rich and diverse history that dates back to ancient times. It has been influenced by various cultures and regions, resulting in the diverse and delicious cuisine that is celebrated worldwide today. Here is a brief history of Italian cuisine:
+
+Ancient Italy: The foundations of Italian cuisine can be traced back to the Etruscans, who inhabited the Italian peninsula before the Roman Empire. They were known for their use of grains, legumes, and simple dishes.
+
+Roman Influence: The Romans played a significant role in shaping Italian cuisine. They introduced ingredients like olive oil, wine, and spices, and established a culinary tradition based on simplicity and freshness. Meals often consisted of grains, vegetables, meat, and fish.
+
+Medieval Italy: The fall of the Roman Empire and the subsequent Medieval period led to a more regionalized cuisine. The use of spices declined, and ingredients were sourced locally. Monasteries also played a role in preserving and developing recipes.
+
+Renaissance and Exploration: During the Renaissance, Italian cuisine began to evolve with the rediscovery of the flavors and ingredients of the Roman Empire. The Age of Exploration brought new foods from the Americas, such as tomatoes, potatoes, and corn, which became integral to Italian cuisine.
+
+Regional Diversity: Italy is known for its regional diversity in cuisine. Each region has its own specialties, such as pasta in the south, risotto in the north, and an abundance of seafood on the coasts. This regionalism is a result of Italy's history of city-states and independent regions.
+
+Napoleon and Unification: The 19th century saw the unification of Italy. The French invasion under Napoleon introduced the concept of fine dining and refined cooking techniques to Italy.
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>About Us</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Rubik", sans-serif;
+        margin: 0 auto;
+        /* max-width: 1300px; */
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 80px;
+      }
+
+      .history {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.5;
+      }
+
+      .subheading {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: #cd4d4d;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 16px;
+        margin-top: 40px;
+      }
+
+      .secondary-heading {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 48px;
+      }
+
+      .history-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .recipe-img {
+        width: 85%;
+        border-radius: 14px;
+        box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 40px;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 84px 0 84px;
+        font-size: 18px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        background-color: rgba(16, 15, 16, 0.775);
+        /* background-color: #555; */
+      }
+
+      .nav--links {
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+      }
+
+      .nav-links {
+        color: #f3d3d3;
+        text-decoration: none;
+        transition: all 0.5s;
+      }
+
+      .nav-links:hover,
+      .nav-links:active {
+        color: #da7a7a;
+      }
+
+      .footer-div {
+        height: 40px;
+        background-color: #1b1b1b;
+        display: flex;
+        align-items: center;
+      }
+
+      .footer {
+        color: #ccc;
+        width: 1200px;
+        margin: 0 auto;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .bottom-nav {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+      }
+
+      .bot-nav-elements {
+        color: #ccc;
+        text-decoration: none;
+      }
+
+      .bot-nav-elements:hover {
+        color: #da7a7a;
+        transition: all 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation">
+      <a>Hello</a>
+      <div class="nav--links">
+        <a class="nav-links" href="index.html">Home</a>
+        <a class="nav-links" href="aboutus.html">About Us</a>
+        <a class="nav-links" href="contactus.html">Contact Us</a>
+        <a class="nav-links" href="signup.html">Sign Up</a>
+      </div>
+    </nav>
+    <section class="container">
+      <div>
+        <p><span class="subheading">History</span></p>
+        <h2 class="secondary-heading">
+          Explore the Culinary Journey of Italian Cuisine
+        </h2>
+        <img class="recipe-img" src="Images/About us.png" />
+      </div>
+      <div class="history">
+        <p>
+          Italian cuisine has a rich and diverse history that dates back to
+          ancient times. It has been influenced by various cultures and regions,
+          resulting in the diverse and delicious cuisine that is celebrated
+          worldwide today. Here is a brief history of Italian cuisine:
+        </p>
+        <br />
+        <ul class="history-list">
+          <li>
+            <strong>Ancient Italy:</strong> The foundations of Italian cuisine
+            can be traced back to the Etruscans, who inhabited the Italian
+            peninsula before the Roman Empire. They were known for their use of
+            grains, legumes, and simple dishes.
+          </li>
+          <li>
+            <strong>Roman Influence:</strong> The Romans played a significant
+            role in shaping Italian cuisine. They introduced ingredients like
+            olive oil, wine, and spices, and established a culinary tradition
+            based on simplicity and freshness. Meals often consisted of grains,
+            vegetables, meat, and fish.
+          </li>
+          <li>
+            <strong>Medieval Italy:</strong> The fall of the Roman Empire and
+            the subsequent Medieval period led to a more regionalized cuisine.
+            The use of spices declined, and ingredients were sourced locally.
+            Monasteries also played a role in preserving and developing recipes.
+          </li>
+          <li>
+            <strong>Renaissance and Exploration:</strong> During the
+            Renaissance, Italian cuisine began to evolve with the rediscovery of
+            the flavors and ingredients of the Roman Empire. The Age of
+            Exploration brought new foods from the Americas, such as tomatoes,
+            potatoes, and corn, which became integral to Italian cuisine.
+          </li>
+          <li>
+            <strong>Regional Diversity:</strong> Italy is known for its regional
+            diversity in cuisine. Each region has its own specialties, such as
+            pasta in the south, risotto in the north, and an abundance of
+            seafood on the coasts. This regionalism is a result of Italy's
+            history of city-states and independent regions.
+          </li>
+          <li>
+            <strong>Napoleon and Unification:</strong> The 19th century saw the
+            unification of Italy. The French invasion under Napoleon introduced
+            the concept of fine dining and refined cooking techniques to Italy.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="footer-div">
+      <footer class="footer">
+        <div>© 2023 . ALL RIGHTS RESERVED.</div>
+
+        <div class="bottom-nav">
+          <a href="index.html" class="bot-nav-elements">Home</a>
+          <a href="table.html" class="bot-nav-elements">Nutrition Table</a>
+          <a href="disclaimer.html" class="bot-nav-elements">Disclaimer</a>
+          <a href="privacy.html" class="bot-nav-elements">Privacy Policy</a>
+          <a href="terms.html" class="bot-nav-elements">Terms & Conditions</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="carpaccio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nutrition Table</title>
+    <style>
+      body {
+        font-family: "Rubik", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #da7a7a;
+        color: white;
+      }
+
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+
+      .span {
+        color: #f5f5f5;
+      }
+
+      .subheading {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: #cd4d4d;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 16px;
+      }
+
+      .tertiary-heading {
+        font-size: 28px;
+        color: #333;
+        padding-bottom: 16px;
+        text-align: left;
+      }
+
+      .recipe-img {
+        width: 85%;
+        border-radius: 14px;
+        box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 40px;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 84px 0 84px;
+        font-size: 18px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        background-color: rgba(16, 15, 16, 0.775);
+        /* background-color: #555; */
+      }
+
+      .nav--links {
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+      }
+
+      .nav-links {
+        color: #f3d3d3;
+        text-decoration: none;
+        transition: all 0.5s;
+      }
+
+      .nav-links:hover,
+      .nav-links:active {
+        color: #da7a7a;
+      }
+
+      .footer-div {
+        height: 40px;
+        background-color: #1b1b1b;
+        display: flex;
+        align-items: center;
+      }
+
+      .footer {
+        color: #ccc;
+        width: 1200px;
+        margin: 0 auto;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .bottom-nav {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+      }
+
+      .bot-nav-elements {
+        color: #ccc;
+        text-decoration: none;
+      }
+
+      .bot-nav-elements:hover {
+        color: #da7a7a;
+        transition: all 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation">
+      <a>Hello</a>
+      <div class="nav--links">
+        <a class="nav-links" href="index.html">Home</a>
+        <a class="nav-links" href="aboutus.html">About Us</a>
+        <a class="nav-links" href="contactus.html">Contact Us</a>
+        <a class="nav-links" href="signup.html">Sign Up</a>
+      </div>
+    </nav>
+    <section class="container">
+      <div>
+        <img
+          src="Images/Nutrition Table.png"
+          alt="A picture of Lasagna"
+          class="recipe-img"
+        />
+      </div>
+      <p><span class="subheading">TABLE</span></p>
+      <h3 class="tertiary-heading">Nutrition Table</h3>
+
+      <table>
+        <tr>
+          <th>Nutrient</th>
+          <th>Recommended %DV</th>
+          <th>Sources</th>
+          <th>Daily Value Source</th>
+        </tr>
+        <tr>
+          <td colspan="4" style="text-align: center">
+            T O T A L
+            <span class="span">ijnsjd JDNONIonononhemnnsajndinin</span> C A L O
+            R I E S
+          </td>
+        </tr>
+        <tr>
+          <td>Fats</td>
+          <td>20-35%</td>
+          <td>Olive oil, nuts, seeds, avocados</td>
+          <td>FDA</td>
+        </tr>
+        <tr>
+          <td>Proteins</td>
+          <td>10-35%</td>
+          <td>Meat, fish, poultry, legumes, dairy products</td>
+          <td>FDA</td>
+        </tr>
+        <tr>
+          <td>Carbohydrates</td>
+          <td>45-65%</td>
+          <td>Whole grains, fruits, vegetables</td>
+          <td>FDA</td>
+        </tr>
+        <tr>
+          <td>Fiber</td>
+          <td>25g</td>
+          <td>Whole grains, fruits, vegetables</td>
+          <td>FDA</td>
+        </tr>
+        <tr>
+          <td>Sugars</td>
+          <td>&lt;10% (added)</td>
+          <td>Fruits, vegetables, natural sources</td>
+          <td>FDA</td>
+        </tr>
+        <tr>
+          <td>Sodium</td>
+          <td>&lt;2,300mg</td>
+          <td>Limit processed foods, use herbs and spices</td>
+          <td>FDA</td>
+        </tr>
+        <tr>
+          <td>Calcium</td>
+          <td>1,000mg</td>
+          <td>Dairy products, leafy greens</td>
+          <td>FDA</td>
+        </tr>
+        <tr>
+          <td>Iron</td>
+          <td>18mg (women), 8mg (men)</td>
+          <td>Red meat, beans, lentils, spinach</td>
+          <td>FDA</td>
+        </tr>
+        <tr>
+          <td>Potassium</td>
+          <td>4,700mg</td>
+          <td>Bananas, oranges, potatoes, tomatoes</td>
+          <td>FDA</td>
+        </tr>
+      </table>
+    </section>
+    <div class="footer-div">
+      <footer class="footer">
+        <div>© 2023 . ALL RIGHTS RESERVED.</div>
+
+        <div class="bottom-nav">
+          <a href="index.html" class="bot-nav-elements">Home</a>
+          <a href="table.html" class="bot-nav-elements">Nutrition Table</a>
+          <a href="disclaimer.html" class="bot-nav-elements">Disclaimer</a>
+          <a href="privacy.html" class="bot-nav-elements">Privacy Policy</a>
+          <a href="terms.html" class="bot-nav-elements">Terms & Conditions</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
